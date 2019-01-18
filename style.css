@@ -256,8 +256,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.work__item-company {
+.work__item-company,
+.work__item-company:link,
+.work__item-company:visited {
   font-weight: 700;
+  text-decoration: none;
+  color: inherit;
 }
 .work__item-task {
   margin-left: 2rem;
@@ -268,7 +272,7 @@ body {
 .work__item-task:hover {
   color: rgba(0, 0, 0, 0.8);
 }
-.work__item-task:before {
+.work__item-task::before {
   content: "";
   position: absolute;
   left: -15px;
