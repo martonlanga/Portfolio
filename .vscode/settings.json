@@ -1,0 +1,5 @@
+{
+  "prettier.eslintIntegration": false,
+  "html.format.indentInnerHtml": true,
+  "html.format.endWithNewline": true
+}
